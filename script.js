@@ -4,6 +4,6 @@ let btn = document.getElementById("incrementBtn");
 
 btn.addEventListener("click",()=>{
 	let curr = parseInt(counterElement.textContent);
-	aler(curr);
+	alert(curr);
 	counterElement.textContent = curr+1;
 })
